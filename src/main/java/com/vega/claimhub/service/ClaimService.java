@@ -64,3 +64,4 @@ public class ClaimService {
         return repository.findById(id).orElseThrow(() -> new ClaimNotFoundException(id));
     }
 }
+
